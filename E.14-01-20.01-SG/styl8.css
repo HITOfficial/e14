@@ -1,0 +1,55 @@
+body {
+    font-family: Georgia;
+    margin: 0;
+}
+.top {
+    background-color: #63ac74;
+    color: orange;
+    height: 140px;
+    width: 100%;
+    display: flex;
+    text-align: right;
+    font-size: 160%;
+}
+.top > ul {
+    margin-top: -15px;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+.top > h2 {
+    width: 50%;
+}
+.middle {
+    background-color: #e3f6e7;
+    height: 500px;
+    padding: 20px;
+}
+.middle > table {
+    width: 100%;
+    border: 2px solid green; 
+}
+thead {
+    background-color: #63ac74;
+    color: white;
+}
+a {
+    color: orange;
+    margin: 15px
+}
+
+.bottom {
+    background-color: #63ac64;
+    display: flex;
+}
+.bottom > div {
+    width: 25%;
+    height: 150px;
+} 
+
+thead {
+    text-align: center;
+}
+tbody td:nth-child(4) {
+    text-align: right;
+}

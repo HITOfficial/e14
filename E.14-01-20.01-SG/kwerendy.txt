@@ -1,0 +1,4 @@
+zapytanie1: select id, nazwa, opis, cena from podzespoly where cena <1000
+zapytanie2: select p.nazwa, p.opis from podzespoly as p join producenci as pr on p.producenci_id = pr.id where pr.nazwa = "Intel"
+zapytanie3: select p.nazwa, pr.nazwa from podzespoly as p join producenci as pr
+zapytanie4: update podzespoly set opis = 'RAM PATRIOT Signature DDR3 8GB (2x4GB) 1600 CL9 PSD38G1600KH' WHERE `podzespoly`.`id` = 7

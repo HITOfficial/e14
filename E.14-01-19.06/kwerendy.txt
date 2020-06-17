@@ -1,0 +1,6 @@
+Zaptanie 1: SELECT nazwa from towary where promocja = 1
+Zaptanie 2: SELECT cena FROM `towary` where nazwa = "Cienkopis"
+Zaptanie 3: select d.nazwa, COUNT(d.id) as ilosc from dostawcy as d join towary as t on d.id = t.idDostawcy group by d.nazwa
+Zaptanie 4: ALTER TABLE `dostawcy` ADD `e_mail` TEXT NOT NULL AFTER `adres`;
+
+

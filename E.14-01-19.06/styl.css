@@ -1,0 +1,43 @@
+.top {
+    background-color: #e8c84e;
+    height: 50px;
+    font-size: 130%;
+    text-align: center;
+}
+.middle {
+    display: flex;
+}
+.left {
+    background-color: #ffb544;
+    height: 500px;
+    width: 40%;
+    font-size:130%
+}
+.mid {
+    height: 500px;
+    height: 30%;
+    text-align: center;
+}
+.right {
+    background-color: #ffb544;
+    height: 500px;
+    width: 30%;
+    font-size: 130%;
+    text-align: center;
+}
+.bottom {
+    background-color: #e8c84e;
+    height: 50px;
+    text-align: right;
+    padding: 10px;
+}
+ul {
+    padding-top: 30px;
+    background-color: #ffaa00;
+}
+h3, img {
+    margin-top: 50px;
+}
+form {
+    margin-bottom: 100px;
+}
