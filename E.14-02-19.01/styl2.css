@@ -1,0 +1,73 @@
+body {
+    font-family: Georgia;
+    margin: 0;
+}
+.top {
+    background-color: #824555;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.middle {
+    display: flex;
+    width: 100%;
+}
+.middle .left, .mid {
+    background-color: #a26475;
+    color: white;
+    width: 30%;
+    height: 300px;
+}
+.right {
+    background-color: #a26475;
+    color: white;
+    width: 40%;
+    height: 300px;
+    text-align: right;
+}
+.bottom {
+    background-color: #f0eae2;
+    padding: 50px;
+}
+.footer{
+    background-color: #824555;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+table, thead, td{
+    border: 2px solid #69293A;
+    padding: 7px;
+    border-collapse: collapse;
+}
+ul > li {
+    list-style-type: square;
+
+}
+button {
+    padding: 5px;
+}
+.pierwszy{
+    background-color: red;
+}
+.drugi {
+    background-color: green;
+}
+.trzeci {
+    background-color: blue;
+}
+.red {
+    color: red;
+}
+.green {
+    color: green
+}
+.blue {
+    color: blue;
+}
+.italic {
+    font-style: italic;
+}
+.normal {
+    font-style: normal;
+}

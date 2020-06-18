@@ -1,0 +1,6 @@
+Zapytanie 1 : INSERT INTO `filmy` (`gatunki_id`, `rezyserzy_id`, `tytul`, `rok`, `ocena`) VALUES ( '5', '', 'Suburbicon', '2017', '5')
+Zapytanie 2 : select f.tytul, g.nazwa from filmy as f join gatunki as g on f.gatunki_id = g.id where f.ocena = "6"
+Zapytanie 3 : select tytul, rok from filmy WHERE gatunki_id = 3 and ocena = 5
+Zapytanie 4 : CREATE TABLE `dane`.`aktorzy` ( `id` INT NOT NULL , `imie` TEXT NULL ) ENGINE = InnoDB;
+
+

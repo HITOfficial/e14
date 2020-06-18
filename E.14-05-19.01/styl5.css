@@ -1,0 +1,49 @@
+body {
+    font-family: Verdana;
+    margin: 0;
+}
+.flex {
+    display: flex;
+}
+p {
+    margin: 0;
+}
+.top .image {
+    background-color: Sienna;
+    color: orange;
+    width: 20%;
+    height: 100px;
+}
+.top .title {
+    background-color: sienna;
+    color: orange;
+    width: 80%;
+    height: 100px;
+}
+.middle .left {
+    background-color: burlywood;
+    height: 700px;
+    width: 70%;
+}
+.middle .left img {
+    width: 20%;
+    height: 20%;
+}
+.middle .right {
+    background-color: burlywood;
+    height: 700px;
+    width: 30%;
+}
+.bottom {
+    background-color: sienna;
+    color: orange;
+    text-align: center;
+}
+img {
+    margin: 7px;
+    padding: 5px;
+    border: solid rosybrown;
+}
+img:hover {
+    border-color: maroon;
+}

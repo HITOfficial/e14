@@ -1,0 +1,50 @@
+body {
+    font-family: Helvetica;
+}
+h1{
+    letter-spacing: 5px;
+    margin: 0;
+}
+form {
+    line-height: 3;
+}
+form:hover{
+    background-color: deepskyblue;
+}
+label {
+    display: block;
+
+}
+.left {
+    background-color: Navy;
+    color: white;
+    height: 700px;
+    width: 25%;
+}
+.container{
+    display: flex;
+}
+.right{
+    width: 75%;
+}
+.right .top {
+    background-color: RoyalBlue;
+    height: 100px;
+
+    text-align: center;
+}
+.right .middle {
+    background-color: steelblue;
+    height: 300px;
+}
+.right .bottom {
+    background-color: royalblue;
+    height: 300px;
+
+    text-align: center;
+}
+.footer{
+    background-color: steelblue;
+    text-align: center;
+    padding: 20px;
+}

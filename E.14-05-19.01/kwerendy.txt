@@ -1,0 +1,4 @@
+Zapytanie 1: SELECT nazwa, potoczna from grzyby where jadalny = 1
+Zapytanie 2: SELECT g.nazwa, g.potoczna, r.nazwa from grzyby as g join rodzina as r on g.rodzina_id = r.id join potrawy as p on g.potrawy_id = p.id where p.nazwa ="sos"
+Zapytanie 3: select nazwa_pliku, potoczna from grzyby
+Zapytanie 4: ALTER TABLE `rodzina` ADD `opis` TEXT AFTER `nazwa`

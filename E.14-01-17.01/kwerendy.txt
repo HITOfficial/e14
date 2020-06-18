@@ -1,0 +1,7 @@
+Zapytanie 1: select id, marka, model from samochody
+Zapytanie 2: select `Samochody_id`, `Klient` from zamowienia
+Zapytanie 3: select * from samochody where marka ="Fiat"
+
+
+
+

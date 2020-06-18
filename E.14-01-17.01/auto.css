@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+}
+h1 {
+    margin: 0;
+}
+.top {
+    background-color: #45517d;
+    color: white;
+    font-size: 120%;
+    text-align: right;
+    height: 60px;
+}
+.middle {
+    display: flex;
+    width: 100%;
+}
+.left {
+    background-color: #61b2ec;
+    width: 40%;
+    height: 500px;
+}
+.right {
+    background-color: #8ec9f2;
+    width: 60%;
+    height: 500px;
+}
+.bottom {
+    background-color: #45517d;
+    color: white;
+    font-size: 150%;
+    text-align: center;
+}
+a:link {
+    color: orange;
+}
+a:visited {
+    color: green;
+}
+table{
+    width: 100%;
+}
+a {
+    color: orange;
+}

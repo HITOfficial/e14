@@ -1,0 +1,31 @@
+h1, p {
+    margin: 0;
+}
+.top {
+    background-color: rgb(66,22,42);
+    color: white;
+    font-size: 140%;
+    text-align: center;
+    height: 100px;
+}
+.middle {
+    display: flex;
+}
+.middle .left {
+    background-color: rgb(142,115,110);
+    width: 30%;
+    height: 600px;
+    color: white;
+}
+.middle .right {
+    background-color: rgb(230,230,230);
+    width: 70%;
+    height: 600px;
+    font-size: 120%;
+}
+.bottom {
+    background-color: rgb(142,115,110);
+    color: white;
+    text-align: right;
+    height: 100px;
+}
