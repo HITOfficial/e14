@@ -1,0 +1,4 @@
+Zapytanie 1: select p.nazwa,p.opis,p.cena from podzespoly as p join producenci as pr on p.producenci_id = pr.id join typy as t on p.typy_id = t.id where t.kategoria = "Procesor"
+Zapytanie 2: select `id`,`nazwa` from podzespoly where dostepnosc = 1 and cena <400
+Zapytanie 3: select p.`nazwa` from podzespoly as p join typy as t on p.typy_id = t.id where t.kategoria = "Procesor"
+Zapytanie 4: ALTER TABLE `typy` ADD `opis` TEXT

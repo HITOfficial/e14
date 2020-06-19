@@ -1,0 +1,6 @@
+Zapytane 1: select f.tytul, f.rok, f.ocena from filmy as f join gatunki as g on f.gatunki_id = g.id where g.nazwa = "komedia"
+Zapytane 2: select f.id, f.tytul, r.imie, r.nazwisko from filmy as f join rezyserzy as r on f.rezyserzy_id = r.id
+Zapytane 3: select id, tytul from filmy where rok = 2017 and ocena = 6
+Zapytane 4: update rezyserzy set imie ="Francis Ford" where id = 8
+
+

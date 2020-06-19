@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    font-family: Verdana;
+}
+.left {
+    background-color: #ff9f79;
+    height: 270px;
+    width: 30%;
+}
+.top {
+    display: flex;
+}
+
+.mid, .right {
+    background-color: #ff9f79;
+    color: green;
+    height: 270px;
+    width: 35%;
+}
+.middle {
+    background-color: #80cdac;
+    height: 400px;
+    padding: 30px;
+    text-align: center;
+}
+.bottom {
+    background-color: #188256;
+    height: 150px;
+    padding: 10px;
+}
+a:link {
+    background-color: green;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid orange;
+}
+a:visited {
+    background-color: violet;
+}
