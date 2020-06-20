@@ -1,0 +1,5 @@
+Zapytanie 1: select id, tytul, tresc from ogloszenie where kategoria = 1
+Zapytanie 2: SELECT u.telefon FROM uzytkownik as u join ogloszenie as o on u.id = o.uzytkownik_id where o.id = 1
+Zapytanie 3: create user 'moderator'@'%' identified by 'qwerty'
+Zapytanie 4: GRANT SELECT, DELETE ON `ogloszenia`.* TO 'moderator'@'%'
+

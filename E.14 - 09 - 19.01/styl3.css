@@ -1,0 +1,37 @@
+body {
+    font-family: Garamond;
+}
+.top {
+    background-color: rosybrown;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.middle {
+    background-color: darksalmon;
+    text-align: center;
+    padding: 40px;
+}
+.left, .right {
+    background-color: lightsalmon;
+    height: 300px;
+    width: 30%;
+}
+.bottom {
+    display: flex;
+}
+.mid {
+    background-color: lightsalmon;
+    height: 300px;
+    width: 40%;
+}
+.footer {
+    background-color: rosybrown;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+ol {
+    border: 2px solid rgb(205,92,92);
+    font-size: 150%;
+}

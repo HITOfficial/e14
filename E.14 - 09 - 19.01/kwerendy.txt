@@ -1,0 +1,4 @@
+Zapytanie 1: SELECT z.wystepowanie, z.gatunek FROM `zwierzeta` as z join gromady as g on z.Gromady_id = g.id where g.nazwa = 'ryby'
+Zapytanie 2: select z.id, z.gatunek from zwierzeta as z join gromady as g on z.Gromady_id = g.id
+Zapytanie 3: select count(z.id) as ilosc  from zwierzeta as z join gromady as g on z.Gromady_id = g.id where g.nazwa = "ssaki" group by g.nazwa
+Zapytanie 4: CREATE USER 'KatarzynaNowak'@'%' IDENTIFIED BY 'K4tNow'

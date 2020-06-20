@@ -1,0 +1,38 @@
+body {
+    font-family: Helvetica;
+    margin: 0;
+}
+.top {
+    display: flex;
+}
+.left, .right {
+    background-color: #6face3;
+    color: blue;
+    height: 300px;
+    width: 30%;
+}
+.mid {
+    background-color: #6face3;
+    width: 40%;
+    height: 300px;
+}
+.middle {
+    background-color: #4c93d2;
+    height: 350px;
+    padding: 20px;
+    text-align: center;
+}
+.bottom {
+    background-color: #2d77ba;
+    color: white;
+    height: 170px;
+    padding: 15px;
+}
+a:link {
+    background-color: lightskyblue;
+    margin: 5px;
+    padding: 10px;
+}
+a:visited {
+    background-color: lightsteelblue;
+}

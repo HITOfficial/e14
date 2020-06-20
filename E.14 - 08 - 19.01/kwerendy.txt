@@ -1,0 +1,4 @@
+Zapytanie 1: select p.nazwa, p.dostepnosc, p.cena from podzespoly as p join producenci as pr on p.producenci_id = pr.id where pr.nazwa = "ADATA"
+Zapytanie 2: select p.id, p.opis, p.cena from podzespoly as p join producenci as pr on p.producenci_id = pr.id where p.dostepnosc = 0 and pr.nazwa = "Intel" or pr.nazwa = "AMD"
+Zapytanie 3: select p.opis, p.cena, pr.nazwa from podzespoly as p join producenci as pr on p.producenci_id = pr.id
+Zapytanie 4: ALTER TABLE `producenci` ADD `priorytet` INT AFTER `opis`, ADD `dowolnym` INT AFTER `priorytet`
