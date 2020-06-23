@@ -1,0 +1,4 @@
+Zapytanie 1: INSERT INTO `ogloszenie` (`uzytkownik_id`, `kategoria`, `podkategoria`, `tytul`, `tresc`) VALUES ('1', '2', '0', 'Celine Dion', 'Sprzedam CD piosenkarki')
+Zapytanie 2: select * from ogloszenie where kategoria = 1 and podkategoria = 13
+Zapytanie 3: CREATE USER 'Andrzej'@'localhost' IDENTIFIED BY 'xsw23'
+Zapytanie 4: GRANT SELECT, ALTER ON `baza3`.* TO 'Andrzej'@'localhost'

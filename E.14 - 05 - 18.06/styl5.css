@@ -1,0 +1,48 @@
+body, h1 {
+    margin: 0;
+}
+label {
+    display: block;
+}
+.top {
+    background-color: #1c59a7;
+    color: white;
+    text-align: center;
+    height: 80px;
+}
+.middle {
+    display: flex;
+}
+.left {
+    background-color: #3a70b5;
+    width: 33%;
+    height: 200px;
+}
+.mid {
+    background-color: #5a8ac8;
+    width: 33%;
+    height: 200px;
+}
+.right {
+    background-color: #86acdd;
+    text-align: center;
+    width: 34%;
+    height: 200px;
+}
+.bottom {
+    background-color: #86acdd;
+    text-align: center;
+    height: 300px;
+}
+.footer {
+    background-color: #1c59a7;
+    color: white;
+}
+.right a {
+    background-color: yellow;
+    color: blue;
+    padding: 10px;
+}
+.bottom h2 {
+    margin: 0;
+}

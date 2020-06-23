@@ -1,0 +1,4 @@
+Zaptytanie 1: select imie, telefon, szczepienie, opis from zwierzeta
+Zaptytanie 2: SELECT id, imie, wlasciciel FROM `zwierzeta` WHERE rodzaj = 1
+Zaptytanie 3: select z.imie, u.nazwa from zwierzeta as z join uslugi as u ON z.usluga_id = u.id
+Zaptytanie 4: select avg(cena) as srednia_cena  from uslugi

@@ -1,0 +1,3 @@
+Zapytanie 1: select id, imie, nazwisko from pacjenci
+Zapytanie 2: select imie, nazwisko, choroby_przewlekle from pacjenci WHERE id = 1
+Zapytanie 3: select imie, nazwisko from pacjenci where uczulenia= "brak"

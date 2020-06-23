@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+}
+.top {
+    background-color: rgb(255,213,162);
+    text-align: center;
+    padding: 20px;
+}
+.flex-block {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+.flex-block  a {
+    background-color: rgb(191,112,17);
+    color: white;
+    width: 25%;
+    text-align: center;
+    margin: 0;
+    list-style-type: none;
+}
+.bottom {
+    height: 400px;
+}
+.footer {
+    background-color: rgb(191,112,17);
+    color: white;
+    text-align: right;
+    font-size: 150%;
+}
+a {
+    color: white;
+}
+button {
+    background-color: brown;
+    border: 2px solid;
+    color: white;
+    font-weight: 700;
+    padding: 10px;
+}

@@ -1,0 +1,4 @@
+Zapytanie 1: select nazwa, cena from uslugi
+Zapytanie 2: select imie, rodzaj, nastepna_wizyta, telefon from zwierzeta where nastepna_wizyta != 0
+Zapytanie 3: select z.rodzaj, u.nazwa from zwierzeta as z join uslugi as u on z.usluga_id = u.id
+Zapytanie 4: select cena from uslugi order by cena asc limit 1

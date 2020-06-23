@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wyremontuj mieszkanie</title>
+    <link rel="stylesheet" href="remont.css">
+</head>
+<body>
+    <div class="contanier">
+        <div class="top">
+            <img src="logo.png">
+        </div>
+        <div class="middle">
+            <ul class="flex-block">
+                <a href="index.html"><li>O NAS</li></a>
+                <a href="kontakt.html"><li>KONTAKT</li></a>
+                <a href="kalkulator.html"><li>KALKULATOR</li></a>
+                <a href="http://www.jakremontowac.pl/"><li>POLECANE STRONY</li></a>
+            </ul>
+        </div>
+        <div class="bottom">
+            <h1>Malowanie pokoju: 8zł za m<sup>2</sup></h1>
+            <p>Wymiary pokoju w metrach: 
+                <label><input class="x" type="number"></label>
+                <label><input class="y" type="number"></label>
+            </p>
+            <button class="calculate" onclick="calculate()">Oblicz</button>
+            <p class="area"></p>
+            <p class="cost"></p>
+        </div>
+        <div class="footer">
+            <p>Autor strony: 00000000000</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

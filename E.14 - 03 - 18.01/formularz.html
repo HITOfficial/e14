@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dodaj ogłoszenie</title>
+    <link rel="stylesheet" href="styl3.css">
+</head>
+<body>
+    <div class="container">
+        <div class="top">
+            <h2>
+                Portal Ogłoszeniowy
+            </h2>
+        </div>
+        <div class="middle">
+            <div class="left">
+                <h2>Kategorie</h2>
+                <ol>
+                    <li>Książki</li>
+                    <li>Muzyka</li>
+                    <li>Filmy</li>
+                </ol>
+                <h2>Podkategorie</h2>
+                <ol>
+                    <li>Romans</li>
+                    <li>Biografia</li>
+                    <li>Kryminał</li>
+                    <li>Komiks</li>
+                </ol>
+                <img src="ksiazki.jpg" alt="Dodaj ogłoszenie">
+                <a href="kwerendy.txt">Pobierz kwerendy</a>
+            </div>
+            <div class="right">
+                <h2>Anna Kowalska- dodanie ogłoszenia</h2>
+                <form action="dodajRekord.php" method="POST">
+                    <label>
+                        Kategoria <input type="number" name="kategoria">
+                    </label>
+                    <label>
+                        Podkategoria <input type="number" name="podkategoria">
+                    </label>
+                    <label>
+                        Tytuł <input type="number" name="tytul">
+                    </label>
+                    <label>
+                        Treść <textarea cols="40" rows="10" name="opis"></textarea>
+                    </label>
+                    <label>
+                        <input type="reset" name="reset" value="WYCZYŚĆ">
+                        <input type="submit" name = "submit" value="ZAPISZ">
+                    </label>
+                </form>
+            </div>
+        </div>
+        <div class="bottom">
+            Portal ogłoszeniowy opracował 00000000000
+        </div>
+    </div>
+</body>
+</html>
